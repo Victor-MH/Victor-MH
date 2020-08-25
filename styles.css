@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23fb8500' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container hr {
+    height: 10px;
+    border: 1;
+    box-shadow: inset 0 9px 9px -3px rgba(255, 94, 1, 0.8);
+    border-color: rgba(255, 73, 1, 0.8);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* Navigation */
+.nav-main {
+    font-size: 20PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+/* Navigation left */
+.nav-main ul {
+    display: flex;
+
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 6px;
+    color: #000000;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.nav-main ul nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Showcase */ 
+.showcase {
+    width: 100%;
+    height: 550px;
+    background: url(https://cdn.pixabay.com/photo/2015/04/20/13/17/work-731198_960_720.jpg) no-repeat center center/cover;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase h1 {
+    color: #fff;
+    font-size: 3em;
+}
+
+/* Project Cards */
+.project-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 100px;
+    margin: 15px 0;
+}
+
+.project-cards img {
+    width: 100%;
+    height: 200px;
+}
+
+.project-cards h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.project-cards a {
+    padding: 10px 0 2px;
+    color: #595959;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.project-cards a:hover {
+    border-bottom: 2px solid #595959;
+}
+
+/* Banner About */
+.banner-about {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background: url(https://cdn.pixabay.com/photo/2016/08/02/14/04/sky-1563473__340.jpg);
+    background-size: 100%;
+    margin-bottom: 40px;
+}
+
+.banner-about .content {
+    width: 30%;
+    padding: 90px 0 0 30px;
+}
+
+.banner-about p,
+.banner-about h2 {
+    margin: 10px 0 20px 0;
+}
+
+/* Skills */
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 100px;
+    margin: 15px 0;
+    align-items: center;
+}
+
+.skills h4 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.skills img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 60px;
+}
+
+/* Social */
+.social {
+    margin: 50px;
+}
+
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+}
+
+.links a i {
+    font-size: 3rem;
+}
